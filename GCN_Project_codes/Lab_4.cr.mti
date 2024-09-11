@@ -1,0 +1,212 @@
+/afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module combinational_FSM
+-- Compiling module mux_combinational
+-- Compiling module Matrix_FM_WM_ADJ_Memory
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv(3)
+** at Matrix_FM_WM_ADJ_Memory.sv(14): (vlog-13314) Defaulting port 'fm_wm_adj_row_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module row_adder
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv(4)
+** at row_adder.sv(11): (vlog-13314) Defaulting port 'fm_wm_in1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv(4)
+** at row_adder.sv(12): (vlog-13314) Defaulting port 'fm_wm_in2' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module counter_edge
+-- Compiling module combination
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv(27): (vlog-13314) Defaulting port 'coo_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combination.sv(29): (vlog-13314) Defaulting port 'fm_wm_row_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	combination
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_argmax_Memory.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_argmax_Memory.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Matrix_argmax_Memory
+
+Top level modules:
+	Matrix_argmax_Memory
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_weight.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_weight.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module counter_weight
+
+Top level modules:
+	counter_weight
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Transformation_FSM
+-- Compiling module mux_transformation
+-- Compiling module Scratch_Pad
+-- Compiling module Vector_Multiplier
+-- Compiling module Matrix_FM_WM_Memory
+-- Compiling module counter_feature
+-- Compiling module counter_weight
+-- Compiling module Transformation
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(1)
+** at transformation.sv(29): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module combinational_FSM
+-- Compiling module mux_combinational
+-- Compiling module Matrix_FM_WM_ADJ_Memory
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(2)
+** while parsing file included at combination.sv(3)
+** at Matrix_FM_WM_ADJ_Memory.sv(14): (vlog-13314) Defaulting port 'fm_wm_adj_row_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module row_adder
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(2)
+** while parsing file included at combination.sv(4)
+** at row_adder.sv(11): (vlog-13314) Defaulting port 'fm_wm_in1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(2)
+** while parsing file included at combination.sv(4)
+** at row_adder.sv(12): (vlog-13314) Defaulting port 'fm_wm_in2' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module counter_edge
+-- Compiling module combination
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(2)
+** at combination.sv(27): (vlog-13314) Defaulting port 'coo_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(2)
+** at combination.sv(29): (vlog-13314) Defaulting port 'fm_wm_row_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module argmax_fsm
+-- Compiling module argmax_comb
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(3)
+** while parsing file included at argmax.sv(2)
+** at argmax_comb.sv(9): (vlog-13314) Defaulting port 'FM_WM_ADJ_ROW' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module Matrix_argmax_Memory
+-- Compiling module argmax
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(3)
+** at argmax.sv(28): (vlog-13314) Defaulting port 'adj_fm_wm_row' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module GCN
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(26): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN.sv(27): (vlog-13314) Defaulting port 'coo_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	GCN
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/mux_transformation.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/mux_transformation.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module mux_transformation
+
+Top level modules:
+	mux_transformation
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_FM_WM_ADJ_Memory.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_FM_WM_ADJ_Memory.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Matrix_FM_WM_ADJ_Memory
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_FM_WM_ADJ_Memory.sv(14): (vlog-13314) Defaulting port 'fm_wm_adj_row_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Matrix_FM_WM_ADJ_Memory
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Vector_Multiplier.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Vector_Multiplier.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Vector_Multiplier
+
+Top level modules:
+	Vector_Multiplier
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_feature.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_feature.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module counter_feature
+
+Top level modules:
+	counter_feature
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN_TB_Test.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/GCN_TB_Test.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module GCN_TB
+
+Top level modules:
+	GCN_TB
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_edge.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/counter_edge.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module counter_edge
+
+Top level modules:
+	counter_edge
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Transformation_FSM.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Transformation_FSM.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Transformation_FSM
+
+Top level modules:
+	Transformation_FSM
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Scratch_Pad.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Scratch_Pad.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Scratch_Pad
+
+Top level modules:
+	Scratch_Pad
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax_fsm.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax_fsm.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module argmax_fsm
+
+Top level modules:
+	argmax_fsm
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combinational_FSM.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/combinational_FSM.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module combinational_FSM
+
+Top level modules:
+	combinational_FSM
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/transformation.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/transformation.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Transformation_FSM
+-- Compiling module mux_transformation
+-- Compiling module Scratch_Pad
+-- Compiling module Vector_Multiplier
+-- Compiling module Matrix_FM_WM_Memory
+-- Compiling module counter_feature
+-- Compiling module counter_weight
+-- Compiling module Transformation
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/transformation.sv(29): (vlog-13314) Defaulting port 'data_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Transformation
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/row_adder.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/row_adder.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module row_adder
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/row_adder.sv(11): (vlog-13314) Defaulting port 'fm_wm_in1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/row_adder.sv(12): (vlog-13314) Defaulting port 'fm_wm_in2' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	row_adder
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module argmax_fsm
+-- Compiling module argmax_comb
+** Warning: ** while parsing file included at /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax.sv(2)
+** at argmax_comb.sv(9): (vlog-13314) Defaulting port 'FM_WM_ADJ_ROW' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module Matrix_argmax_Memory
+-- Compiling module argmax
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax.sv(28): (vlog-13314) Defaulting port 'adj_fm_wm_row' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	argmax
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax_comb.sv {2 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax_comb.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module argmax_comb
+** Warning: /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/argmax_comb.sv(9): (vlog-13314) Defaulting port 'FM_WM_ADJ_ROW' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	argmax_comb
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/mux_combinational.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/mux_combinational.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module mux_combinational
+
+Top level modules:
+	mux_combinational
+
+} {} {}} /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_FM_WM_Memory.sv {1 {vlog -work work -vopt -sv -stats=none /afs/asu.edu/users/s/v/e/svemul22/asap7_rundir/Lab_4/Matrix_FM_WM_Memory.sv
+Model Technology ModelSim SE vlog 2019.1 Compiler 2019.01 Jan  1 2019
+-- Compiling module Matrix_FM_WM_Memory
+
+Top level modules:
+	Matrix_FM_WM_Memory
+
+} {} {}}

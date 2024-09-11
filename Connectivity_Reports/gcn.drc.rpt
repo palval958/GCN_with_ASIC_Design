@@ -1,0 +1,44 @@
+ *** Starting Verify DRC (MEM: 1598.9) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+  VERIFY DRC ...... Sub-Area: {0.000 0.000 56.448 55.296} 1 of 16
+  VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {56.448 0.000 112.896 55.296} 2 of 16
+  VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {112.896 0.000 169.344 55.296} 3 of 16
+  VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {169.344 0.000 222.048 55.296} 4 of 16
+  VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 55.296 56.448 110.592} 5 of 16
+  VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {56.448 55.296 112.896 110.592} 6 of 16
+  VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {112.896 55.296 169.344 110.592} 7 of 16
+  VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {169.344 55.296 222.048 110.592} 8 of 16
+  VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 110.592 56.448 165.888} 9 of 16
+  VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {56.448 110.592 112.896 165.888} 10 of 16
+  VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {112.896 110.592 169.344 165.888} 11 of 16
+  VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {169.344 110.592 222.048 165.888} 12 of 16
+  VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 165.888 56.448 220.752} 13 of 16
+  VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {56.448 165.888 112.896 220.752} 14 of 16
+  VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {112.896 165.888 169.344 220.752} 15 of 16
+  VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {169.344 165.888 222.048 220.752} 16 of 16
+  VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+
+  Verification Complete : 0 Viols.
+
+ *** End Verify DRC (CPU: 0:00:25.7  ELAPSED TIME: 26.00  MEM: 262.8M) ***
+
